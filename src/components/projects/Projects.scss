@@ -67,23 +67,26 @@
       justify-content: center;
       color: white;
       position: relative;
-      cursor: pointer;
+  
       box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px, rgba(0, 0, 0, 0.22) 0px 10px 12px;
 
 
 
       h3 {
         position: absolute;
-        font-size: 1.5rem;
+        font-size: 1rem;
       }
 
       a {
         position: absolute;
         color: $text;
-        bottom: 0;
+        bottom: 10%;
         text-decoration: none;
 
-        &:active{
+        &:active {
+          transform: scale(1.1);
+        }
+        &:hover {
           transform: scale(1.1);
         }
       }
