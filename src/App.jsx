@@ -18,6 +18,7 @@ function App() {
   const [sideBar, setSideBar] = useState(false);
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+  console.log(darkMode);
 
   return (
     <div className={'App ' + (darkMode && ' darkMode')} >
