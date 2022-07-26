@@ -17,7 +17,7 @@
         align-items: center;
 
         .imageContainer {
-            background: $gradient;
+            background-color: $gradient;
             border-radius: 50%;
             box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 10px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
             display: flex;
@@ -79,7 +79,6 @@
         }
 
 
-
         .arrow {
             position: absolute;
             bottom: 0;
@@ -117,5 +116,12 @@
         .left {
             flex: 0.6;
         }
+    }
+}
+
+@media screen and (max-width : 800px) {
+
+    .intro .right .wrapper {
+        justify-content: start;
     }
 }

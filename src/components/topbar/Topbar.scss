@@ -1,18 +1,46 @@
 @import "../../global.scss";
 
 .topbar {
-    width: 100%;
-    height: 4rem;
-    position: fixed;
     z-index: 3;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
 
     .wrapper {
-        padding: 1rem;
         display: flex;
+        padding: 1rem;
         align-items: center;
         justify-content: space-between;
+        width: 100%;
+        display: flex;
         animation: movedown 1.2s linear 1;
+
+        .title h1 {
+            overflow: hidden;
+            display: inline-block;
+            font-weight: 700;
+            letter-spacing: .2rem;
+            font-size: 2rem;
+
+            span {
+                background-image: linear-gradient(transparent calc(75% - 5px),
+                        $text 5px,
+                    );
+                background-size: 0;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                transition: background-size 0.6s ease;
+            }
+
+            &:hover {
+                span {
+                    background-size: 0%;
+                }
+            }
+        }
 
 
         @keyframes movedown {
@@ -29,36 +57,14 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            gap: 3rem;
 
-            h1 {
-                font-size: 2rem;
-                overflow: hidden;
-                display: inline-block;
-                font-weight: 700;
-                letter-spacing: .5rem;
 
-                span {
-                    background-image: linear-gradient(transparent calc(75% - 5px),
-                            darken($text, 10%) 5px,
-                        );
-                    background-size: 0;
-                    background-repeat: no-repeat;
-                    background-size: 100%;
-                    transition: background-size 0.6s ease;
-                }
-
-                &:hover {
-                    span {
-                        background-size: 0%;
-                    }
-                }
-            }
 
             .bar-items {
-                margin-left: 50px;
 
                 a {
-                    font-size: 1rem;
+                    font-size: 1.25rem;
                     letter-spacing: 1.5px;
                     text-decoration: none;
                     color: inherit;
@@ -75,13 +81,14 @@
 
         .right {
             display: flex;
+            flex-direction: row;
             align-items: center;
             justify-content: center;
+            gap: 2rem;
 
             .light-dark-mode {
                 display: flex;
                 align-items: center;
-                margin-right: .8rem;
 
                 .icon {
                     font-size: 2rem;
@@ -114,8 +121,8 @@
         .left h1 {
             color: white;
             background-image: linear-gradient(transparent calc(75% - 5px),
-                            darken($text, 10%) 5px,
-                        );
+                    darken($text, 10%) 5px,
+                );
         }
 
         .right {
@@ -170,4 +177,3 @@
         }
     }
 }
-

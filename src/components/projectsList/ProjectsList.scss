@@ -1,13 +1,16 @@
 @import "../../global.scss";
 
 li {
-    padding: 1rem;
+    padding: .5rem;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    font-size: 1rem;
+
     &.active {
-        background-color: $gradient;
+        background-color: $text;
         color: white;
         border-radius: .5rem;
     }

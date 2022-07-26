@@ -18,8 +18,10 @@ export default function Topbar({ sideBar, setSideBar }) {
   return (
     <div className={'topbar ' + (sideBar && 'active')}>
       <div className='wrapper'>
-        <div className="left">
+        <div className="title">
           <h1><span>Omar</span></h1>
+        </div>
+        <div className="left">
           <div className="bar-items">
             <a href='#intro'>
               Intro

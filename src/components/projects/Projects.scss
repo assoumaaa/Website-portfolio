@@ -5,26 +5,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: $text;
-  overflow: hidden;
+  background-image: linear-gradient(to top, #bb9457, #ad6856, #86475a, #503254, #14213d);
 
   h1 {
-    font-size: 4rem;
-    max-width: 75vw;
     overflow: hidden;
     display: inline-block;
-    color: $gradient;
-
+    font-weight: 700;
+    letter-spacing: .2rem;
+    font-size: 2.4rem;
+    color: white;
 
     span {
-      background-image: linear-gradient(transparent calc(65% - 5px),
-          darken(white, 10%) 5px,
+      background-image: linear-gradient(transparent calc(75% - 5px),
+          $text 5px,
         );
       background-size: 0;
       background-repeat: no-repeat;
-      transition: background-size 0.5s ease;
       background-size: 100%;
-
+      transition: background-size 0.6s ease;
     }
 
     &:hover {
@@ -35,14 +33,15 @@
   }
 
   ul {
-    margin: 1rem;
+    margin: 2rem;
     list-style: none;
     display: flex;
     padding-inline-start: 0;
+    gap: 5rem;
   }
 
   .container {
-    width: 80%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,24 +56,24 @@
 
     .item {
       transition: transform 1s ease;
-      border: white solid;
-      width: 15rem;
+      border: $gradient solid 1px;
+      width: 17rem;
       height: 10rem;
-      border-radius: .4rem;
-      margin: 1rem 1.7rem;
+      border-radius: 1rem;
+      margin: 2rem 2.7rem;
       display: flex;
       align-items: center;
       justify-content: center;
       color: white;
       position: relative;
-  
-      box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px, rgba(0, 0, 0, 0.22) 0px 10px 12px;
+      //box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px, rgba(0, 0, 0, 0.22) 0px 10px 12px;
 
 
 
       h3 {
         position: absolute;
         font-size: 1rem;
+        max-width: 12rem;
       }
 
       a {
@@ -86,6 +85,7 @@
         &:active {
           transform: scale(1.1);
         }
+
         &:hover {
           transform: scale(1.1);
         }
@@ -97,6 +97,7 @@
       img {
         width: 100%;
         height: 100%;
+        border-radius: .8rem;
         object-fit: cover;
         z-index: 1;
       }
