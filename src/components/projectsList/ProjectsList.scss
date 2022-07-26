@@ -1,0 +1,14 @@
+@import "../../global.scss";
+
+li {
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.active {
+        background-color: $gradient;
+        color: white;
+        border-radius: .5rem;
+    }
+}

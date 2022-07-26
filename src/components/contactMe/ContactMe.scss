@@ -1,0 +1,155 @@
+@import "../../global.scss";
+
+.contactMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+    .decoration {
+        position: absolute;
+        left: 0;
+        width: 2rem;
+        height: 100%;
+        background-color: $text;
+    }
+
+    .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 0.5;
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-left: 3rem;
+
+            .icon {
+                color: $text;
+            }
+
+            .icons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 2.5rem;
+                gap: 3rem;
+                transition: all 1s ease;
+
+                a {
+                    color: $text;
+                    transition: all 1s ease;
+
+                    &:hover {
+                        transition: all 1s ease;
+                        transform: scale(1.2);
+                    }
+                }
+            }
+
+            h2 {
+                display: flex;
+                align-items: center;
+                gap: .5rem;
+                font-size: 1.5rem;
+            }
+
+            h1 {
+                font-size: 4rem;
+                max-width: 75vw;
+                overflow: hidden;
+                display: inline-block;
+
+
+                span {
+                    background-image: linear-gradient(transparent calc(65% - 5px),
+                            darken($text, 10%) 5px,
+                        );
+                    background-size: 0;
+                    background-repeat: no-repeat;
+                    transition: background-size 0.5s ease;
+                    background-size: 100%;
+                }
+
+                &:hover {
+                    span {
+                        background-size: 0%;
+                    }
+                }
+            }
+        }
+    }
+
+    .right {
+        flex: 0.5;
+
+        .form-container {
+
+            h2 {
+                font-size: 1rem;
+                color: $text;
+            }
+
+            .h2-style {
+                display: inline-block;
+                color: $gradient;
+                font-weight: 800;
+                border-bottom: $gradient solid;
+                margin-bottom: 2rem;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+
+                input {
+                    width: 50%;
+                    height: 2rem;
+                    border: none;
+                    border-bottom: $gradient solid .1rem;
+                    font-size: 1rem;
+                    background-color: transparent;
+                    padding: .3rem;
+                }
+
+                textarea {
+                    width: 80%;
+                    font-size: 1rem;
+                    border: $gradient solid .1rem;
+                    background-color: transparent;
+                    padding: .3rem;
+                }
+
+                button {
+                    left: 50%;
+                    width: 50%;
+                    font-size: 1rem;
+                    border: none;
+                    color: white;
+                    padding: .5rem;
+                    border-radius: 3rem;
+
+                    &:active {
+                        transform: scale(1.1);
+                    }
+                }
+
+
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width : 940px) {
+
+    .contactMe {
+        flex-direction: column;
+    }
+}
