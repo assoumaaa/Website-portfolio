@@ -75,10 +75,10 @@ export default function Projects() {
           <div className="item">
             <img
               src={d.img}
-              alt="picture"
+              alt="background-pic"
             />
             <h3>{d.title}</h3>
-            <a href={d.github} target="_blank">View Github</a>
+            <a href={d.github} target="somethingUnique">View Github</a>
           </div>
 
         ))}

@@ -60,8 +60,8 @@ export default function ContactMe() {
                     <h2><IoLogoWhatsapp className='icon' /> +961 (76) 88 99 95</h2>
                     <h2><IoIosMail className='icon' /> omarassouma@hotmail.com</h2>
                     <div className="icons">
-                        <a target="_blank" href='https://www.linkedin.com/in/omar-assouma-a60275210/'  > <AiFillLinkedin /> </a>
-                        <a target="_blank" href='https://github.com/assoumaaa'> <AiOutlineGithub />  </a>
+                        <a target="somethingUnique" href='https://www.linkedin.com/in/omar-assouma-a60275210/'  > <AiFillLinkedin /> </a>
+                        <a target="somethingUnique" href='https://github.com/assoumaaa'> <AiOutlineGithub />  </a>
                     </div>
                 </div></div>
             <div className="right">
@@ -70,7 +70,7 @@ export default function ContactMe() {
                     <h2 className='h2-style'>Get in touch.</h2>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input type="text" placeholder='Name' name='user_name' />
-                        <input type="text" placeholder='Subject' name='user_subject' />
+                        <input type="texxt" placeholder='Subject' name='user_subject' />
                         <input type="text" placeholder='Email' name='user_email' />
                         <textarea rows={5} placeholder='Message' name='user_message' />
                         <button>Submit</button>
