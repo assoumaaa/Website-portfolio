@@ -1,7 +1,6 @@
 @import "../../global.scss";
 
 .skills {
-    transition: all 1.2s ease;
     //background-image: linear-gradient(to bottom, #0080f6, #0093d9, #0098aa, #64968b, #8d918d);    overflow: hidden;
 
 
@@ -27,7 +26,7 @@
                     );
                 background-size: 0;
                 background-repeat: no-repeat;
-                transition: 0.5s ease;
+                transition: background-size 0.5s ease;
                 background-position-y: 100%;
                 background-size: 100%;
             }
@@ -45,9 +44,8 @@
             font-size: 1.4rem;
             margin-top: 2rem;
             overflow: hidden;
-            font-weight: 600;
-            //font-style: italic;
-
+            font-weight: 500;
+            font-style: italic;
         }
     }
 
@@ -73,9 +71,13 @@
                 animation: jiggle 0.2s infinite;
             }
 
+            span{
+                color: $text;
+                font-weight: 700;
+            }
+
             .icons {
                 font-size: 4rem;
-
             }
 
             @keyframes jiggle {

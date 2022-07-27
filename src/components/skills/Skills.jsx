@@ -23,15 +23,15 @@ export const Skills = () => {
                 <h2>The skills, tools i use to bring products to life.</h2>
             </div>
             <div className="grids">
-                <div class="grid-item"> HTML <FaHtml5 className='icons' /></div>
-                <div class="grid-item"> Sass <FaSass className='icons'/></div>
-                <div class="grid-item"> JS <FaJs className='icons'/></div>
-                <div class="grid-item"> React <FaReact className='icons'/></div>
-                <div class="grid-item"> Node.js <FaNode className='icons'/></div>
-                <div class="grid-item"> Firebase <IoLogoFirebase className='icons'/></div>
-                <div class="grid-item"> Python <FaPython className='icons'/></div>
-                <div class="grid-item"> Flutter <FaCss3 className='icons' /></div>
-                <div class="grid-item"> Git <FaGitAlt className='icons'/></div>
+                <div class="grid-item"> <span>HTML</span>  <FaHtml5 className='icons' /></div>
+                <div class="grid-item"> <span>Sass</span> <FaSass className='icons' /></div>
+                <div class="grid-item"> <span>JS</span> <FaJs className='icons' /></div>
+                <div class="grid-item"> <span>React</span>  <FaReact className='icons' /></div>
+                <div class="grid-item"> <span>Node.js</span>  <FaNode className='icons' /></div>
+                <div class="grid-item"> <span>Firebase</span>  <IoLogoFirebase className='icons' /></div>
+                <div class="grid-item"> <span>Python</span>  <FaPython className='icons' /></div>
+                <div class="grid-item"> <span>Flutter</span>  <FaCss3 className='icons' /></div>
+                <div class="grid-item"> <span>Git</span>  <FaGitAlt className='icons' /></div>
             </div>
         </div>
     )
