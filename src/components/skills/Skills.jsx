@@ -20,7 +20,7 @@ export const Skills = () => {
             <div className="information">
                 <h2>Skills & tools</h2>
                 <h1><span>My Toolbox</span></h1>
-                <h2>The skills, tools and technologies i use to bring products to life.</h2>
+                <h2>The skills, tools i use to bring products to life.</h2>
             </div>
             <div className="grids">
                 <div class="grid-item"> HTML <FaHtml5 className='icons' /></div>
