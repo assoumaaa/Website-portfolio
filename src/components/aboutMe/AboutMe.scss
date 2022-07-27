@@ -18,7 +18,7 @@
 
     .card {
         width: 80%;
-        height: 60%;
+        height: 70%;
         border-radius: 30px;
         position: relative;
         overflow: hidden;
@@ -36,7 +36,7 @@
             align-items: center;
             justify-content: center;
             position: absolute;
-            bottom: 17%;
+            bottom: 7%;
             right: 15%;
             background: $text;
         }
@@ -53,6 +53,7 @@
             font-size: 4rem;
             overflow: hidden;
             display: -webkit-inline-box;
+            //font-weight: 500;
 
             span {
                 background-image: linear-gradient(transparent calc(65% - 5px),
@@ -77,20 +78,21 @@
             height: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: space-evenly;
             border-radius: 1rem;
             padding-left: 6rem;
 
             .wrapper {
                 display: flex;
                 align-items: center;
+                justify-content: center;
 
                 button {
                     /* Variables */
                     --button_radius: 0.75em;
                     --button_outline_color: #000000;
-                    font-size: 1rem;
-                    font-weight: bold;
+                    font-size: 1.6rem;
+                    font-weight: 700;
                     border: none;
                     border-radius: var(--button_radius);
                     background: var(--button_outline_color);
@@ -123,23 +125,27 @@
             }
 
             h2 {
-                font-size: 1rem;
+                font-size: 1.7rem;
                 color: $text;
                 margin: 1rem 0rem;
                 max-height: 5rem;
                 position: relative;
                 margin-top: 1rem;
                 line-height: 1.5rem;
+                font-weight: 550;
             }
 
             h3 {
-                font-size: 1.3rem;
+                font-size: 2.2rem;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 line-height: 3rem;
-                margin: 1rem 0;
-                max-height: 60%;
+                //margin: 1rem 0;
+                overflow: hidden;
+                font-weight: 400;
+                font-style: italic;
+
             }
         }
     }
@@ -147,8 +153,7 @@
 
 @media screen and (max-width : 830px) {
     .aboutMe {
-        //flex-direction: column-reverse;
-
+        //flex-direction: column;
 
         .right {
             .card {
@@ -158,6 +163,7 @@
 
         .left {
             flex: 0.7;
+
             .information {
                 padding-left: 2rem;
 
@@ -176,5 +182,28 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width : 500px) {
+
+    .aboutMe {
+        .left .information {
+
+            h2 {
+                font-size: 1.3rem;
+            }
+
+            h3 {
+                font-size: 1.9rem;
+            }
+        }
+
+        .right .card{
+            height: 90%;
+            width: 80%;
+
+        }
+
     }
 }
