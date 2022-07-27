@@ -43,7 +43,7 @@ export default function ContactMe() {
                         text: "Thank you for sending me an email!",
                         icon: "success",
                         button: "Ok!"
-                    });          
+                    });
                 }, (error) => {
                     console.log(error.text);
                 });
@@ -63,7 +63,8 @@ export default function ContactMe() {
                         <a target="somethingUnique" href='https://www.linkedin.com/in/omar-assouma-a60275210/'  > <AiFillLinkedin /> </a>
                         <a target="somethingUnique" href='https://github.com/assoumaaa'> <AiOutlineGithub />  </a>
                     </div>
-                </div></div>
+                </div>
+            </div>
             <div className="right">
                 <div className="form-container">
                     <h2>Got any questions or comments? </h2>

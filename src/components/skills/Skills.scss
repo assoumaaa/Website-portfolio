@@ -6,6 +6,10 @@
 
 
     .information {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
 
         h1 {
             font-size: 4rem;
@@ -19,14 +23,13 @@
 
             span {
                 background-image: linear-gradient(transparent calc(65% - 5px),
-                        darken($text, 10%) 5px,
+                        darken($text, 2%) 5px,
                     );
                 background-size: 0;
                 background-repeat: no-repeat;
                 transition: 0.5s ease;
                 background-position-y: 100%;
                 background-size: 100%;
-
             }
 
             &:hover {
@@ -39,7 +42,7 @@
         h2 {
             position: relative;
             color: mix($text, #fff, 85%);
-            font-size: 1.1rem;
+            font-size: 1.4rem;
             margin-top: 2rem;
             margin-left: 3rem;
             overflow: hidden;
@@ -63,7 +66,7 @@
             padding: 1rem;
             font-size: 1.6rem;
             text-align: center;
-            
+
             &:hover {
                 animation: jiggle 0.2s infinite;
             }

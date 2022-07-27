@@ -19,7 +19,7 @@ export default function Topbar({ sideBar, setSideBar }) {
     <div className={'topbar ' + (sideBar && 'active')}>
       <div className='wrapper'>
         <div className="title">
-          <h1><span>Omar</span></h1>
+          <span>OA.</span>
         </div>
         <div className="left">
           <div className="bar-items">

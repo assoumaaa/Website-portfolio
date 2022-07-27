@@ -17,21 +17,21 @@
         align-items: center;
 
         .imageContainer {
-            background-image: linear-gradient(to right top, #0080f6, #0093d9, #0098aa, #64968b, #8d918d);            border-radius: 50%;
-            box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 10px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            background-image: linear-gradient(to left bottom, #0080f6, #2e68e1, #424fcb, #4e33b2, #550c97);            box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 10px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            border-radius: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
 
-            width: 80%;
-            height: 88%;
+            width: 95%;
+            height: 91%;
             overflow: hidden;
 
 
             img {
                 height: 100%;
                 width: 100%;
-                margin-top: 1rem;
+                margin-top: 2rem;
             }
         }
     }

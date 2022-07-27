@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    width: 100%;
 
 
 
@@ -11,12 +13,13 @@
     .decoration {
         position: absolute;
         left: 0;
-        width: 2rem;
+        width: 4rem;
         height: 100%;
         background-color: $text;
     }
 
     .left {
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -38,7 +41,7 @@
                 align-items: center;
                 font-size: 2.5rem;
                 gap: 3rem;
-                height: 6rem ;
+                height: 6rem;
                 transition: all 1s ease;
 
                 a {
@@ -68,7 +71,7 @@
 
                 span {
                     background-image: linear-gradient(transparent calc(65% - 5px),
-                            $text 5px,
+                            darken($text, 2%) 5px,
                         );
                     background-size: 0;
                     background-repeat: no-repeat;
@@ -155,7 +158,7 @@
         flex-direction: column;
 
         .right {
-            flex: 0.9;
+            flex: 0.7;
 
             .form-container form {
 

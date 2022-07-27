@@ -55,13 +55,12 @@
 
         h1 {
             font-size: 4rem;
-            max-width: 100%;
             overflow: hidden;
-            display: inline-block;
+            display: -webkit-inline-box;
 
             span {
                 background-image: linear-gradient(transparent calc(65% - 5px),
-                        $text 5px,
+                        darken($text, 2%) 5px,
                     );
                 background-size: 0;
                 background-repeat: no-repeat;
@@ -85,6 +84,46 @@
             justify-content: center;
             border-radius: 1rem;
             padding-left: 6rem;
+
+            .wrapper {
+                display: flex;
+                align-items: center;
+                button {
+                    /* Variables */
+                    --button_radius: 0.75em;
+                    --button_outline_color: #000000;
+                    font-size: 1rem;
+                    font-weight: bold;
+                    border: none;
+                    border-radius: var(--button_radius);
+                    background: var(--button_outline_color);
+
+
+                }
+
+                .button_top {
+                    text-decoration: none;
+                    display: block;
+                    box-sizing: border-box;
+                    border: 2px solid var(--button_outline_color);
+                    border-radius: var(--button_radius);
+                    padding: 0.75em 1.5em;
+                    background: $text;
+                    color: var(--button_outline_color);
+                    transform: translateY(-0.2em);
+                    transition: transform 0.1s ease;
+                }
+
+                button:hover .button_top {
+                    /* Pull the button upwards when hovered */
+                    transform: translateY(-0.33em);
+                }
+
+                button:active .button_top {
+                    /* Push the button downwards when pressed */
+                    transform: translateY(0);
+                }
+            }
 
             h2 {
                 font-size: 1rem;
