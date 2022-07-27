@@ -5,22 +5,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to top, #bb9457, #ad6856, #86475a, #503254, #14213d);
+
+  background-image: linear-gradient(to right top, #0080f6, #0093d9, #0098aa, #64968b, #8d918d);
 
   h1 {
     overflow: hidden;
     display: inline-block;
     font-weight: 700;
     letter-spacing: .2rem;
-    font-size: 3rem;
-    color: white;
+    font-size: 4rem;
 
     span {
       background-image: linear-gradient(transparent calc(75% - 5px),
           $text 5px,
         );
-      background-size: 0;
       background-repeat: no-repeat;
+      background-position-y: 100%;
+
       background-size: 100%;
       transition: background-size 0.6s ease;
     }
@@ -58,8 +59,8 @@
     .item {
       transition: transform 1s ease;
       border: $gradient solid 1px;
-      width: 17rem;
-      height: 10rem;
+      width: 20rem;
+      height: 14rem;
       border-radius: 1rem;
       margin: 2rem 2.7rem;
       display: flex;
@@ -117,15 +118,16 @@
 
 @media screen and (max-width : 415px) {
   .projects {
-    ul{
+    ul {
       gap: 2rem;
     }
+
     .container {
       width: 100%;
 
       .item {
-        width: 13rem;
-        height: 10rem;
+        width: 14rem;
+        height: 12rem;
         margin: 1rem 1.7rem;
 
       }
