@@ -3,7 +3,7 @@
 
 
 .menu {
-    height: 100vh;
+    height: calc(100vh - 4rem);
     position: fixed;
     z-index: 2;
     background-color: $text;

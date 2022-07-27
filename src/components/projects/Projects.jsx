@@ -19,11 +19,11 @@ export default function Projects() {
     },
     {
       id: "web",
-      title: "Web App",
+      title: "React",
     },
     {
       id: "mobile",
-      title: "Mobile App",
+      title: "Flutter",
     },
     {
       id: "python",

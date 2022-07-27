@@ -24,13 +24,13 @@ export const Skills = () => {
             </div>
             <div className="grids">
                 <div class="grid-item"> HTML <FaHtml5 className='icons' /></div>
-                <div class="grid-item"> CSS <FaCss3 className='icons' /></div>
                 <div class="grid-item"> Sass <FaSass className='icons'/></div>
                 <div class="grid-item"> JS <FaJs className='icons'/></div>
                 <div class="grid-item"> React <FaReact className='icons'/></div>
                 <div class="grid-item"> Node.js <FaNode className='icons'/></div>
                 <div class="grid-item"> Firebase <IoLogoFirebase className='icons'/></div>
                 <div class="grid-item"> Python <FaPython className='icons'/></div>
+                <div class="grid-item"> Flutter <FaCss3 className='icons' /></div>
                 <div class="grid-item"> Git <FaGitAlt className='icons'/></div>
             </div>
         </div>
