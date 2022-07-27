@@ -36,7 +36,7 @@
             align-items: center;
             justify-content: center;
             position: absolute;
-            bottom: 15%;
+            bottom: 17%;
             right: 15%;
             background: $text;
         }
@@ -46,12 +46,8 @@
         overflow: hidden;
         flex: 0.5;
         display: flex;
-        flex-direction: row;
         justify-content: space-evenly;
-        align-items: center;
         height: 100%;
-
-
 
         h1 {
             font-size: 4rem;
@@ -88,6 +84,7 @@
             .wrapper {
                 display: flex;
                 align-items: center;
+
                 button {
                     /* Variables */
                     --button_radius: 0.75em;
@@ -159,19 +156,22 @@
             }
         }
 
-        .left .information {
-            padding-left: 2rem;
+        .left {
+            flex: 0.6;
+            .information {
+                padding-left: 2rem;
 
-            .title {
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                .title {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
 
-                h1 {
-                    margin-top: 1rem;
+                    h1 {
+                        margin-top: 1rem;
 
-                    span {
-                        font-size: 2.5rem;
+                        span {
+                            font-size: 2.5rem;
+                        }
                     }
                 }
             }
