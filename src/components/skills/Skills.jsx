@@ -25,7 +25,7 @@ export const Skills = () => {
             <div className="grids">
                 <div class="grid-item"> <span>HTML</span>  <FaHtml5 className='icons' /></div>
                 <div class="grid-item"> <span>Sass</span> <FaSass className='icons' /></div>
-                <div class="grid-item"> <span>JS</span> <FaJs className='icons' /></div>
+                <div class="grid-item"> <span>Javasript</span> <FaJs className='icons' /></div>
                 <div class="grid-item"> <span>React</span>  <FaReact className='icons' /></div>
                 <div class="grid-item"> <span>Node.js</span>  <FaNode className='icons' /></div>
                 <div class="grid-item"> <span>Firebase</span>  <IoLogoFirebase className='icons' /></div>
