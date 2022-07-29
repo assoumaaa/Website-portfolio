@@ -9,7 +9,7 @@ I have done this website from scratch using react.
 
 ## Goals Achieved
 
-Despite it being a simple static website, it helped me get deeper into scss and improve my design skills and UI/UX design. Moreover i was able to learn more about API's such as **Context API** which i used to do my Dark Mode feature. Also i was able to learn more about difference in font-sizes scales and making my website **REPONSIVE**.
+Despite it being a simple static website, it helped me get deeper into scss and improve my design skills and UI/UX design. Moreover i was able to learn more about API's such as **Context API** which i used to do my Dark Mode feature. Also i was able to learn more about difference in font-sizes scales and making my website **RESPONSIVE**. As they say you will never truly learn something unless you work on it by **YOURSELF!**
 
 ## What's Next?
 
