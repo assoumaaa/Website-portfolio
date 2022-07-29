@@ -1,11 +1,11 @@
 ![OA](https://user-images.githubusercontent.com/94231603/181746904-bf951284-b160-431f-8b69-c2dca8a6a1f8.png)
 
-https://omar-assouma.netlify.app
-
 
 ## My Portfolio!
 
 I have done this website from scratch using react.
+https://omar-assouma.netlify.app
+
 
 ## Goals Achieved
 
@@ -13,7 +13,7 @@ Despite it being a simple static website, it helped me get deeper into scss and 
 
 ## What's Next?
 
-My main focus in the comming time is focusing more on animations upon scrolling and learning more about them in details. Making my website prettier while making sure nothing is laggy or too annoying for the user to click on it.
+My main focus right now is animations upon scrolling and learning more about them in details. Making my website prettier while making sure nothing is laggy or too annoying for the user to click on it. Moreover i will be working on a blog for my website that will be coming soon!
 
 
 ## Available Scripts
