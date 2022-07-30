@@ -39,8 +39,6 @@ export const Skills = () => {
                 <div class="grid-item"> <span>Flutter</span>  <FaCss3 className='icons' /></div>
                 <div class="grid-item"> <span>Git</span>  <FaGitAlt className='icons' /></div>
             </div>
-
-
         </div>
     )
 }
