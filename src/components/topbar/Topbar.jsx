@@ -3,6 +3,9 @@ import "./Topbar.scss"
 import { BsSun, BsMoon } from "react-icons/bs";
 import { useContext } from 'react';
 import { ThemeContext } from '../../context';
+import { Slide } from "react-awesome-reveal";
+
+
 
 
 
@@ -19,13 +22,13 @@ export default function Topbar({ sideBar, setSideBar }) {
 
   return (
     <div className={'topbar ' + (sideBar && 'active')}>
-      
+      <div className='wrapper'>
 
-        <div className='wrapper'>
-
+        <Slide direction='left'>
           <div className="title">
             <span>OA.</span>
           </div>
+
           <div className="left">
             <div className="bar-items">
               <a href='#intro'>
@@ -54,7 +57,9 @@ export default function Topbar({ sideBar, setSideBar }) {
             </div>
 
           </div>
-          <div className="right">
+        </Slide>
+        <div className="right">
+          <Slide direction='right'>
             <div className='light-dark-mode' onClick={handleToggle}>
               {darkMode ? (
                 <BsSun className='icon' />)
@@ -66,13 +71,9 @@ export default function Topbar({ sideBar, setSideBar }) {
               <span className="line2"></span>
               <span className="line3"></span>
             </div>
-          </div>
+          </Slide>
         </div>
+      </div>
     </div>
   )
 }
-
-
-/*
-
-              */

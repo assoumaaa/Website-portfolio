@@ -2,9 +2,11 @@ import { React, useRef, useState } from 'react';
 import "./ContactMe.scss"
 import { BiPhoneCall } from "react-icons/bi";
 import { IoLogoWhatsapp, IoIosMail } from "react-icons/io";
-import { AiFillLinkedin, AiOutlineGithub } from "react-icons/ai";
+import { AiFillLinkedin, AiOutlineGithub, AiFillInstagram, AiOutlineArrowUp } from "react-icons/ai";
 import emailjs from 'emailjs-com'
 import swal from 'sweetalert';
+import { Slide, Fade } from "react-awesome-reveal";
+
 
 
 
@@ -54,27 +56,33 @@ export default function ContactMe() {
         <div className='contactMe' id='contactMe'>
             <div className="decoration"></div>
             <div className="left">
-                <div className="wrapper">
-                    <h1><span>Contact Me!</span></h1>
-                    <h2><BiPhoneCall className='icon' /> +90 (531) 961 5995</h2>
-                    <h2><IoLogoWhatsapp className='icon' /> +961 (76) 88 99 95</h2>
-                    <h2><IoIosMail className='icon' /> omarassouma@hotmail.com</h2>
-                    <div className="icons">
-                        <a target="somethingUnique" href='https://www.linkedin.com/in/omar-assouma-a60275210/'  > <AiFillLinkedin /> </a>
-                        <a target="somethingUnique" href='https://github.com/assoumaaa'> <AiOutlineGithub />  </a>
+                <Slide direction='up'>
+                    <div className="wrapper">
+                        <h1><span>Contact Me!</span></h1>
+                        <h2><BiPhoneCall className='icon' /> +90 (531) 961 5995</h2>
+                        <h2><IoLogoWhatsapp className='icon' /> +961 (76) 88 99 95</h2>
+                        <h2><IoIosMail className='icon' /> omarassouma@hotmail.com</h2>
+                        <div className="icons">
+                            <a target="somethingUnique" href='https://www.linkedin.com/in/omar-assouma-a60275210/'  > <AiFillLinkedin /> </a>
+                            <a target="somethingUnique" href='https://github.com/assoumaaa'> <AiOutlineGithub />  </a>
+                            <a target="somethingUnique" href='https://www.instagram.com/o.assouma/'> <AiFillInstagram />  </a>
+                        </div>
                     </div>
-                </div>
+                </Slide>
             </div>
             <div className="right">
                 <div className="form-container">
-                    <h2>Got any questions or comments? </h2>
-                    <h2 className='h2-style'>Get in touch.</h2>
+                    <Fade duration={2000}>
+                        <h2>Got any questions or comments? </h2>
+                        <h2 className='h2-style'>Get in touch.</h2>
+                    </Fade>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input type="text" placeholder='Name' name='user_name' />
                         <input type="texxt" placeholder='Subject' name='user_subject' />
                         <input type="text" placeholder='Email' name='user_email' />
                         <textarea rows={5} placeholder='Message' name='user_message' />
                         <button>Submit</button>
+                        <a href='#intro'> <AiOutlineArrowUp className='icon' /></a>
                         {loading &&
                             <div>Please Wait!</div>
                         }
