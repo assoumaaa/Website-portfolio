@@ -59,7 +59,6 @@ export default function Topbar({ sideBar, setSideBar }) {
           </div>
         </Slide>
         <div className="right">
-          <Slide direction='right'>
             <div className='light-dark-mode' onClick={handleToggle}>
               {darkMode ? (
                 <BsSun className='icon' />)
@@ -71,7 +70,6 @@ export default function Topbar({ sideBar, setSideBar }) {
               <span className="line2"></span>
               <span className="line3"></span>
             </div>
-          </Slide>
         </div>
       </div>
     </div>
