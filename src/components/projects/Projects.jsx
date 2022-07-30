@@ -9,8 +9,7 @@ import {
   cplusplusPortfolio,
 } from "../../data";
 
-import { AttentionSeeker } from "react-awesome-reveal";
-import { Fade } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 
 
 
@@ -66,7 +65,7 @@ export default function Projects() {
 
     <div className="projects" id="projects">
 
-      <Fade  duration={2000}>
+      <Fade duration={2000}>
 
         <h1><span>Projects</span></h1>
         <ul>
@@ -81,7 +80,7 @@ export default function Projects() {
         </ul>
       </Fade>
       <div className="container">
-        <AttentionSeeker effect="swing">
+        <Slide >
           {data.map((d) => (
             <div className="item">
               <img
@@ -93,7 +92,7 @@ export default function Projects() {
             </div>
 
           ))}
-        </AttentionSeeker>
+        </Slide>
       </div>
 
 

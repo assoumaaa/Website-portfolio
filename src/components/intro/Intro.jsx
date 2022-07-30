@@ -33,6 +33,7 @@ export default function Intro() {
                                 className="type-writer"
                             />
                         </h3>
+
                     </AttentionSeeker>
                 </div>
                 <a href='#aboutMe' className='arrow'>

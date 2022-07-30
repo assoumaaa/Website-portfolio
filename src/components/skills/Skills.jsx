@@ -44,6 +44,8 @@ export const Skills = () => {
                 <div class="grid-item"> <span>Git</span>  <FaGitAlt className='icons' /></div>
             </div>
 
+
+
         </div>
     )
 }
