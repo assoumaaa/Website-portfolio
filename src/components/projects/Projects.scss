@@ -6,6 +6,8 @@
   align-items: center;
   justify-content: center;
 
+
+
   background-image: linear-gradient(to right top, #0080f6, #2e68e1, #424fcb, #4e33b2, #550c97);
 
   h1 {
@@ -124,11 +126,10 @@
     }
 
     .container {
-      width: 100%;
-
+    
       .item {
-        width: 13rem;
-        height: 10rem;
+        width: 35vw;
+        height: 10vh;
         margin: 1rem 1.7rem;
       }
     }

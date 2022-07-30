@@ -45,6 +45,12 @@ export const webPortfolio = [
     img: "./images/getFresh.png",
     github: ""
   },
+  {
+    id: 1,
+    title: "My Portfolio!",
+    img: "./images/OA.png",
+    github: "https://github.com/assoumaaa/Website-portfolio"
+  },
 
 ];
 
@@ -80,5 +86,5 @@ export const cplusplusPortfolio = [
     img: "./images/collision.png",
     github: "https://github.com/assoumaaa/Collision-System-in-Video-Games"
   },
-  
+
 ];

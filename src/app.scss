@@ -47,6 +47,7 @@ html {
 
 			form {
 				color: white;
+
 				input {
 					border-bottom-color: white;
 					color: white;
@@ -63,27 +64,33 @@ html {
 }
 
 
-@media screen and (max-width : 1980px) {
+
+@media screen and (max-width : 913px) {
 	html {
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 	}
 }
 
-@media screen and (max-width : 600px) {
+@media screen and (max-width : 800px) {
 	html {
-		font-size: 0.58rem;
+		font-size: 0.7rem;
 	}
 }
 
-
-@media screen and (max-width : 414px) {
+@media screen and (max-width : 541px) {
 	html {
-		font-size: 0.45rem;
+		font-size: 0.6rem;
 	}
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width : 415px) {
 	html {
-		font-size: 0.3rem;
+		font-size: 0.6rem;
+	}
+}
+
+@media screen and (max-width : 385px) {
+	html {
+		font-size: 0.55rem;
 	}
 }
