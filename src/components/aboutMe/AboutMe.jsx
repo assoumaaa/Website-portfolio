@@ -1,5 +1,7 @@
 import React from 'react'
 import "./AboutMe.scss"
+import Fade from 'react-reveal/Fade';
+
 
 
 export default function AboutMe() {
@@ -9,7 +11,9 @@ export default function AboutMe() {
 
       <div className="left">
         <div className="information">
-          <h1><span>About me </span></h1>
+          <Fade bottom>
+            <h1><span>About me </span></h1>
+          </Fade>
           <h2>I'm a senior computer science engineering student from Lebanon!</h2>
           <h3>Ever since writing my first program in Python and manipulating it to produce the desired output, I have been obsessed with the idea of using software to solve practical problems.</h3>
           <div className="wrapper">
@@ -21,11 +25,13 @@ export default function AboutMe() {
 
       </div>
       <div className="right" >
-        <div className={"card background"}>
-        </div>
-        <div className="card">
-          <img src="../../images/aboutMe.jpeg" alt="pic" />
-        </div>
+        <Fade bottom>
+          <div className={"card background"}>
+          </div>
+          <div className="card">
+            <img src="../../images/aboutMe.jpeg" alt="pic" />
+          </div>
+        </Fade>
       </div>
     </div>
   )

@@ -13,13 +13,13 @@ import Projects from "./components/projects/Projects";
 import ContactMe from "./components/contactMe/ContactMe";
 
 
+
 function App() {
 
   const [sideBar, setSideBar] = useState(false);
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
-  console.log(darkMode);
-
+  
   return (
     <div className={'App ' + (darkMode && ' darkMode')} >
       <Topbar sideBar={sideBar} setSideBar={setSideBar} />

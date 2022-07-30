@@ -16,24 +16,12 @@
         justify-content: space-between;
         width: 100%;
         display: flex;
-        animation: movedown 1.2s linear 1;
 
 
         .title {
             font-size: 3rem;
             color: $text;
             font-weight: 700;
-        }
-
-
-        @keyframes movedown {
-            0% {
-                transform: translateY(-100px);
-            }
-
-            100% {
-                transform: translateY(0);
-            }
         }
 
         .left {

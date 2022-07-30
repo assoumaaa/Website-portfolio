@@ -50,18 +50,6 @@
             justify-content: center;
             align-items: center;
 
-            animation: moveLeft 1.2s linear 1;
-
-            @keyframes moveLeft {
-                0% {
-                    transform: translateX(1000px);
-                }
-
-                100% {
-                    transform: translateX(0);
-                }
-            }
-
             h2 {
                 font-size: 3rem;
                 padding: 20px;
