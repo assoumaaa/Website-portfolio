@@ -2,7 +2,7 @@ import React from 'react'
 import "./Intro.scss"
 import { BsArrowDown } from "react-icons/bs";
 import Typewriter from 'typewriter-effect';
-import LightSpeed from 'react-reveal/LightSpeed';
+
 
 
 
@@ -16,24 +16,21 @@ export default function Intro() {
                 </div>
             </div>
             <div className="right">
-                <LightSpeed right cascade>
-                    <div className="wrapper">
-
-                        <h2>Hi There, I'm</h2>
-                        <h1>Omar Assouma</h1>
-                        <h3>
-                            <Typewriter
-                                options={{
-                                    autoStart: true,
-                                    strings: ["Software Engineer.", "Full-Stack Developer.", "Enthusiastic Learner."],
-                                    delay: 50,
-                                    loop: true,
-                                }}
-                                className="type-writer"
-                            />
-                        </h3>
-                    </div>
-                </LightSpeed>
+                <div className="wrapper">
+                    <h2>Hi There, I'm</h2>
+                    <h1>Omar Assouma</h1>
+                    <h3>
+                        <Typewriter
+                            options={{
+                                autoStart: true,
+                                strings: ["Software Engineer.", "Full-Stack Developer.", "Enthusiastic Learner."],
+                                delay: 50,
+                                loop: true,
+                            }}
+                            className="type-writer"
+                        />
+                    </h3>
+                </div>
                 <a href='#aboutMe' className='arrow'>
                     <BsArrowDown />
                 </a>

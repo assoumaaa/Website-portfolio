@@ -3,7 +3,7 @@ import "./Topbar.scss"
 import { BsSun, BsMoon } from "react-icons/bs";
 import { useContext } from 'react';
 import { ThemeContext } from '../../context';
-import Bounce from 'react-reveal/Bounce';
+
 
 
 
@@ -19,7 +19,7 @@ export default function Topbar({ sideBar, setSideBar }) {
 
   return (
     <div className={'topbar ' + (sideBar && 'active')}>
-      <Bounce top cascade>
+      
 
         <div className='wrapper'>
 
@@ -68,7 +68,6 @@ export default function Topbar({ sideBar, setSideBar }) {
             </div>
           </div>
         </div>
-      </Bounce>
     </div>
   )
 }

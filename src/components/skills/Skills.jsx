@@ -11,7 +11,7 @@ import {
     FaGitAlt
 } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
-import Fade from 'react-reveal/Fade';
+
 
 
 
@@ -20,13 +20,12 @@ import Fade from 'react-reveal/Fade';
 export const Skills = () => {
     return (
         <div className='skills' id='skills'>
-            <Fade bottom>
-                <div className="information">
-                    <h2>Skills & tools</h2>
-                    <h1><span>My Toolbox</span></h1>
-                    <h2>The skills, tools i use to bring products to life.</h2>
-                </div>
-            </Fade>
+
+            <div className="information">
+                <h2>Skills & tools</h2>
+                <h1><span>My Toolbox</span></h1>
+                <h2>The skills, tools i use to bring products to life.</h2>
+            </div>
 
             <div className="grids">
                 <div class="grid-item"> <span>HTML</span>  <FaHtml5 className='icons' /></div>

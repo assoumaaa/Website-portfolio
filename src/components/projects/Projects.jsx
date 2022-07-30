@@ -8,7 +8,7 @@ import {
   pythonPortfolio,
   cplusplusPortfolio,
 } from "../../data";
-import LightSpeed from 'react-reveal/LightSpeed';
+
 
 
 export default function Projects() {
@@ -62,33 +62,33 @@ export default function Projects() {
   return (
 
     <div className="projects" id="projects">
-      <LightSpeed left cascade>
 
-        <h1><span>Projects</span></h1>
-        <ul>
-          {list.map((item) => (
-            <ProjectsList
-              title={item.title}
-              active={selected === item.id}
-              setSelected={setSelected}
-              id={item.id}
+
+      <h1><span>Projects</span></h1>
+      <ul>
+        {list.map((item) => (
+          <ProjectsList
+            title={item.title}
+            active={selected === item.id}
+            setSelected={setSelected}
+            id={item.id}
+          />
+        ))}
+      </ul>
+      <div className="container">
+        {data.map((d) => (
+          <div className="item">
+            <img
+              src={d.img}
+              alt="background-pic"
             />
-          ))}
-        </ul>
-        <div className="container">
-          {data.map((d) => (
-            <div className="item">
-              <img
-                src={d.img}
-                alt="background-pic"
-              />
-              <h3>{d.title}</h3>
-              <a href={d.github} target="somethingUnique">View Github</a>
-            </div>
+            <h3>{d.title}</h3>
+            <a href={d.github} target="somethingUnique">View Github</a>
+          </div>
 
-          ))}
-        </div>
-      </LightSpeed >
+        ))}
+      </div>
+
 
     </div>
   );
