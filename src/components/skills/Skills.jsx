@@ -11,6 +11,9 @@ import {
     FaGitAlt
 } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
+import { Fade } from "react-awesome-reveal";
+
+
 
 
 
@@ -21,11 +24,13 @@ export const Skills = () => {
     return (
         <div className='skills' id='skills'>
 
-            <div className="information">
-                <h2>Skills & tools</h2>
-                <h1><span>My Toolbox</span></h1>
-                <h2>The skills, tools i use to bring products to life.</h2>
-            </div>
+            <Fade duration={2000}>
+                <div className="information">
+                    <h2>Skills & tools</h2>
+                    <h1><span>My Toolbox</span></h1>
+                    <h2>The skills, tools i use to bring products to life.</h2>
+                </div>
+            </Fade>
 
             <div className="grids">
                 <div class="grid-item"> <span>HTML</span>  <FaHtml5 className='icons' /></div>
@@ -38,6 +43,7 @@ export const Skills = () => {
                 <div class="grid-item"> <span>Flutter</span>  <FaCss3 className='icons' /></div>
                 <div class="grid-item"> <span>Git</span>  <FaGitAlt className='icons' /></div>
             </div>
+
         </div>
     )
 }

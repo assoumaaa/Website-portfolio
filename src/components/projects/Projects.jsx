@@ -9,6 +9,9 @@ import {
   cplusplusPortfolio,
 } from "../../data";
 
+import { AttentionSeeker } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
+
 
 
 export default function Projects() {
@@ -63,30 +66,34 @@ export default function Projects() {
 
     <div className="projects" id="projects">
 
+      <Fade  duration={2000}>
 
-      <h1><span>Projects</span></h1>
-      <ul>
-        {list.map((item) => (
-          <ProjectsList
-            title={item.title}
-            active={selected === item.id}
-            setSelected={setSelected}
-            id={item.id}
-          />
-        ))}
-      </ul>
-      <div className="container">
-        {data.map((d) => (
-          <div className="item">
-            <img
-              src={d.img}
-              alt="background-pic"
+        <h1><span>Projects</span></h1>
+        <ul>
+          {list.map((item) => (
+            <ProjectsList
+              title={item.title}
+              active={selected === item.id}
+              setSelected={setSelected}
+              id={item.id}
             />
-            <h3>{d.title}</h3>
-            <a href={d.github} target="somethingUnique">View Github</a>
-          </div>
+          ))}
+        </ul>
+      </Fade>
+      <div className="container">
+        <AttentionSeeker effect="swing">
+          {data.map((d) => (
+            <div className="item">
+              <img
+                src={d.img}
+                alt="background-pic"
+              />
+              <h3>{d.title}</h3>
+              <a href={d.github} target="somethingUnique">View Github</a>
+            </div>
 
-        ))}
+          ))}
+        </AttentionSeeker>
       </div>
 
 
