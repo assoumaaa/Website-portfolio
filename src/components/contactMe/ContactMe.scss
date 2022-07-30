@@ -88,13 +88,15 @@
                     }
                 }
             }
+
+
         }
     }
 
     .right {
         flex: 0.5;
         position: relative;
-        
+
 
 
         .form-container {
@@ -136,33 +138,35 @@
                     padding: .3rem;
                 }
 
-                button {
-                    left: 50%;
-                    width: 50%;
-                    font-size: 1rem;
-                    border: none;
-                    color: white;
-                    padding: .5rem;
-                    border-radius: 3rem;
+                .submit {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                    gap: 5rem;
 
-                    &:active {
-                        transform: scale(1.1);
+                    button {
+                        left: 50%;
+                        width: 50%;
+                        font-size: 1rem;
+                        border: none;
+                        color: white;
+                        padding: .5rem;
+                        border-radius: 3rem;
+
+                        &:active {
+                            transform: scale(1.1);
+                        }
                     }
-                }
- 
-                a{
-                    color: white;
 
-                    .icon{                        
-                        background-image: linear-gradient(to left bottom, #0080f6, #2e68e1, #424fcb, #4e33b2, #550c97);
-                        font-size: 5rem;
-                        border-radius: 50%;
-                        position: absolute;
-                        bottom: 0;
-                        right: 0;
-                        top: 87%;
-                        left: 60%;
-                    }                     
+                    a {
+                        color: white;
+
+                        .icon {
+                            background-image: linear-gradient(to left bottom, #0080f6, #2e68e1, #424fcb, #4e33b2, #550c97);
+                            font-size: 5rem;
+                            border-radius: 50%;
+                        }
+                    }
                 }
             }
         }

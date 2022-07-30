@@ -81,8 +81,11 @@ export default function ContactMe() {
                         <input type="texxt" placeholder='Subject' name='user_subject' />
                         <input type="text" placeholder='Email' name='user_email' />
                         <textarea rows={5} placeholder='Message' name='user_message' />
-                        <button>Submit</button>
-                        <a href='#intro'> <AiOutlineArrowUp className='icon' /></a>
+                        <div className="submit">
+                            <button>Submit</button>
+                            <a href='#intro'> <AiOutlineArrowUp className='icon' /></a>
+                        </div>
+
                         {loading &&
                             <div>Please Wait!</div>
                         }
