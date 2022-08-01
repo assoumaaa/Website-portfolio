@@ -2,7 +2,7 @@ import React from 'react'
 import "./Intro.scss"
 import { BsArrowDown } from "react-icons/bs";
 import Typewriter from 'typewriter-effect';
-import { AttentionSeeker } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 import { AiFillLinkedin, AiOutlineGithub, AiFillInstagram } from "react-icons/ai";
 
 
@@ -20,7 +20,7 @@ export default function Intro() {
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <AttentionSeeker effect='bounce' triggerOnce='true' delay={500}>
+                    <Slide direction='right' triggerOnce='true' >
                         <div className="icons">
                             <a target="somethingUnique" href='https://www.linkedin.com/in/omar-assouma-a60275210/'  > <AiFillLinkedin /> </a>
                             <a target="somethingUnique" href='https://github.com/assoumaaa'> <AiOutlineGithub />  </a>
@@ -39,7 +39,7 @@ export default function Intro() {
                                 className="type-writer"
                             />
                         </h3>
-                    </AttentionSeeker>
+                    </Slide>
                 </div>
                 <a href='#aboutMe' className='arrow'>
                     <BsArrowDown />
