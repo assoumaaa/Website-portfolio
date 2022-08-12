@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Intro.scss"
-import { BsArrowDown } from "react-icons/bs";
 import Typewriter from 'typewriter-effect';
 import { Slide } from "react-awesome-reveal";
 import { AiFillLinkedin, AiOutlineGithub, AiFillInstagram } from "react-icons/ai";
@@ -41,9 +40,6 @@ export default function Intro() {
                         </h3>
                     </Slide>
                 </div>
-                <a href='#aboutMe' className='arrow'>
-                    <BsArrowDown />
-                </a>
             </div>
         </div >
     )

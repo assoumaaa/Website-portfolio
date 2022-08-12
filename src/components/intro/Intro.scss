@@ -83,25 +83,6 @@
                 font-weight: 400;
             }
         }
-
-        .arrow {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            font-size: 3em;
-            animation: scaling 0.6s infinite alternate;
-            color: inherit;
-
-            @keyframes scaling {
-                From {
-                    transform: scale(1.0);
-                }
-
-                To {
-                    transform: scale(1.4);
-                }
-            }
-        }
     }
 }
 
@@ -112,10 +93,6 @@
 
         .right {
             flex: 0.4;
-
-            .arrow {
-                display: none;
-            }
         }
 
         .left {
