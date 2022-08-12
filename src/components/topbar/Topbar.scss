@@ -9,6 +9,7 @@
     align-items: center;
 
 
+
     .wrapper {
         display: flex;
         padding: 1rem;
@@ -29,8 +30,6 @@
             align-items: center;
             justify-content: center;
             gap: 3rem;
-
-
 
             .bar-items {
 
@@ -92,7 +91,7 @@
         background-color: $text;
         transition: all 1s ease;
 
-        .wrapper .title{
+        .wrapper .title {
             color: white;
         }
 
