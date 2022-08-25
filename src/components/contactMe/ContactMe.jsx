@@ -56,7 +56,7 @@ export default function ContactMe() {
         <div className='contactMe' id='contactMe'>
             <div className="decoration"></div>
             <div className="left">
-                <Slide direction='up'>
+                <Slide direction='left' triggerOnce='true'>
                     <div className="wrapper">
                         <h1><span>Contact Me!</span></h1>
                         <h2><BiPhoneCall className='icon' /> +90 (531) 961 5995</h2>

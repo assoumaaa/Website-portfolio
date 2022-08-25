@@ -80,7 +80,7 @@ export default function Projects() {
         </ul>
       </Fade>
       <div className="container">
-        <Slide >
+        <Slide triggerOnce='true'>
           {data.map((d) => (
             <div className="item">
               <img
