@@ -2,7 +2,6 @@ import React from 'react'
 import "./Intro.scss"
 import Typewriter from 'typewriter-effect';
 import { Slide } from "react-awesome-reveal";
-import { AiFillLinkedin, AiOutlineGithub, AiFillInstagram, AiOutlineLaptop } from "react-icons/ai";
 import { BsCodeSlash } from "react-icons/bs";
 
 
