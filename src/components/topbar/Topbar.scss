@@ -21,8 +21,8 @@
 
         .title {
             font-size: 3rem;
-            color: $text;
             font-weight: 700;
+            //color: $text;
         }
 
         .left {
@@ -37,7 +37,7 @@
                     font-size: 1.25rem;
                     letter-spacing: 1.5px;
                     text-decoration: none;
-                    color: inherit;
+                    //color: $secondary_text;
                     font-weight: 600;
                 }
 

@@ -10,7 +10,9 @@ html {
 	//color: $gradient;
 	transition: all 1.2s ease;
 
-
+	a{
+		color: black;
+	}
 
 	.sections {
 		width: 100%;
@@ -34,9 +36,10 @@ html {
 		background-color: $background;
 		color: white;
 
-		button {
-			background-color: $text;
+		a{
+			color: white;
 		}
+
 
 		.right .form-container {
 

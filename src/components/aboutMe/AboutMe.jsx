@@ -12,8 +12,8 @@ export default function AboutMe() {
 
       <div className="left">
         <div className="information">
-          <Fade down duration={2000}>
-            <h1><span>About me </span></h1>
+          <Fade down duration={1000}>
+            <h1><span>01. About me </span></h1>
           </Fade>
           <h2>I'm a senior computer science engineering student from Lebanon!</h2>
           <h3>Ever since writing my first program in Python and manipulating it to produce the desired output, I have been obsessed with the idea of using software to solve practical problems.</h3>
@@ -28,7 +28,7 @@ export default function AboutMe() {
         <div className={"card background"}>.
         </div>
         <div className="card">
-          <img src="../../images/aboutMe.jpeg" alt="pic" />
+          <img src="../../images/myPicture.JPG" alt="pic" />
         </div>
       </div>
     </div >

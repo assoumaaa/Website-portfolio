@@ -26,9 +26,7 @@ export const Skills = () => {
 
             <Fade duration={2000}>
                 <div className="information">
-                    <h2>Skills & tools</h2>
-                    <h1><span>My Toolbox</span></h1>
-                    <h2>The skills, tools i use to bring products to life.</h2>
+                    <h1><span>02. My Toolbox</span></h1>
                 </div>
             </Fade>
 

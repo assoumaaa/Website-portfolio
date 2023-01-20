@@ -54,11 +54,11 @@ export default function ContactMe() {
 
     return (
         <div className='contactMe' id='contactMe'>
-            <div className="decoration"></div>
+            
             <div className="left">
                 <Slide direction='left' triggerOnce='true'>
                     <div className="wrapper">
-                        <h1><span>Contact Me!</span></h1>
+                        <h1><span>04. Contact Me!</span></h1>
                         <h2><BiPhoneCall className='icon' /> +90 (531) 961 5995</h2>
                         <h2><IoLogoWhatsapp className='icon' /> +961 (76) 88 99 95</h2>
                         <h2><IoIosMail className='icon' /> omarassouma@hotmail.com</h2>

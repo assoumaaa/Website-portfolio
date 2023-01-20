@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
 
     .information {
@@ -13,9 +14,7 @@
         align-items: center;
 
         h1 {
-            font-size: 4rem;
-            margin-top: 1rem;
-            margin-left: 3rem;
+            font-size: 2rem;
             max-width: 75vw;
             //color: white;
             overflow: hidden;
@@ -42,20 +41,19 @@
 
         h2 {
             position: relative;
-            color: mix($text, #fff, 85%);
+            //color: mix($text, #fff, 85%);
             font-size: 1.4rem;
-            margin-top: 2rem;
             overflow: hidden;
-            font-weight: 500;
+            font-weight: 300;
             font-style: italic;
         }
     }
 
     .grids {
         display: grid;
-        width: 100%;
+        width: 65%;
         height: 60%;
-        right: 50%;
+        //right: 50%;
         grid-template-columns: auto auto auto;
         overflow: hidden;
 
@@ -65,7 +63,6 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 1rem;
             font-size: 1.2rem;
             text-align: center;
 
@@ -75,7 +72,7 @@
 
             span {
                 color: $text;
-                font-weight: 700;
+                font-weight: 400;
                 font-size: 1rem;
             }
 

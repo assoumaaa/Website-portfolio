@@ -6,7 +6,7 @@
     justify-content: center;
 
     .right {
-        flex: 0.6;
+        flex: 0.4;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -38,23 +38,22 @@
             position: absolute;
             bottom: 7%;
             right: 15%;
-            background: $text;
+            background: $secondary_text;
         }
     }
 
     .left {
+        height: 100%;
         overflow: hidden;
         flex: 0.5;
-        display: flex;
-        justify-content: center;
-        height: 100%;
+        
 
         h1 {
             overflow: hidden;
             display: inline-block;
             font-weight: 700;
             letter-spacing: .2rem;
-            font-size: 4rem;
+            font-size: 2rem;
             
         
             span {
@@ -81,11 +80,13 @@
             height: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;
+            justify-content: center;
+
             border-radius: 1rem;
             padding-left: 6rem;
 
             .wrapper {
+                padding: 2rem;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -99,8 +100,6 @@
                     border: none;
                     border-radius: var(--button_radius);
                     background: var(--button_outline_color);
-
-
                 }
 
                 .button_top {
@@ -128,27 +127,23 @@
             }
 
             h2 {
-                font-size: 1.7rem;
+                font-size: 1.5rem;
                 color: $text;
                 max-height: 5rem;
                 position: relative;
-                margin-top: 1rem;
-                line-height: 1.5rem;
                 font-weight: 550;
                 overflow: hidden;
             }
 
             h3 {
-                font-size: 2.2rem;
+                font-size: 1.5rem;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                line-height: 3rem;
                 //margin: 1rem 0;
                 overflow: hidden;
                 font-weight: 400;
                 font-style: italic;
-
             }
         }
     }

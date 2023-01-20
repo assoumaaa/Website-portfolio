@@ -67,7 +67,7 @@ export default function Projects() {
 
       <Fade duration={2000}>
 
-        <h1><span>Projects</span></h1>
+        <h1><span>03. Projects</span></h1>
         <ul>
           {list.map((item) => (
             <ProjectsList
