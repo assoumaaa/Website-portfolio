@@ -21,6 +21,9 @@
         .title {
             font-size: 3rem;
             font-weight: 700;
+            text-shadow: 0 2px 1px $text, 
+            -1px 3px 1px $text, 
+            -2px 5px 1px $text;
             //color: $text;
         }
 

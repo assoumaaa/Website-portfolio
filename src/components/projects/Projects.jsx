@@ -65,7 +65,7 @@ export default function Projects() {
 
     <div className="projects" id="projects">
 
-      <Fade duration={2000}>
+      <Fade duration={2500}>
 
         <h1><span>03. Projects</span></h1>
         <ul>
