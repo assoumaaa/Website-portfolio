@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: $text;
 
     .right {
         flex: 0.5;
@@ -56,11 +57,12 @@
             font-weight: 700;
             letter-spacing: .2rem;
             font-size: 2rem;
+            color: black;
 
 
             span {
                 background-image: linear-gradient(transparent calc(65% - 5px),
-                        darken($text, 2%) 5px,
+                        darken(whitesmoke, 2%) 5px,
 
                     );
                 background-repeat: no-repeat;
@@ -109,7 +111,7 @@
                     border: 2px solid var(--button_outline_color);
                     border-radius: var(--button_radius);
                     padding: 0.75em 1.5em;
-                    background: $text;
+                    background: whitesmoke;
                     color: var(--button_outline_color);
                     transform: translateY(-0.2em);
                     transition: transform 0.1s ease;
@@ -129,22 +131,23 @@
             .details {
 
                 h2 {
-                    font-size: 1.2rem;
-                    color: $text;
+                    font-size: 1.5rem;
+                    color: whitesmoke;
                     max-height: 5rem;
                     position: relative;
                     font-weight: 550;
                     overflow: hidden;
+                    font-style: italic;
                 }
 
                 h3 {
-                    font-size: 1.2rem;
+                    font-size: 1.5rem;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     overflow: hidden;
-                    font-weight: 400;
-                    font-style: italic;
+                    font-weight: 300;
+                    color: white;
                 }
             }
         }
