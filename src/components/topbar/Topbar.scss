@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 400;
 
 
 
@@ -20,10 +21,10 @@
 
         .title {
             font-size: 3rem;
-            font-weight: 700;
-            text-shadow: 0 2px 1px $text, 
-            -1px 3px 1px $text, 
-            -2px 5px 1px $text;
+            font-weight: 400;
+            text-shadow: 0 1px 0px $text, 
+            -1px 2px 0px $text, 
+            -2px 4px 0px $text;
             //color: $text;
         }
 
@@ -40,7 +41,6 @@
                     letter-spacing: 1.5px;
                     text-decoration: none;
                     //color: $secondary_text;
-                    font-weight: 600;
                 }
 
                 &:hover {
@@ -59,7 +59,6 @@
             justify-content: center;
             gap: 2rem;
             height: 3rem;
-            font-weight: 700;
 
             .light-dark-mode {
                 display: flex;
