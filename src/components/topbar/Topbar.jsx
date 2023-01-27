@@ -26,7 +26,7 @@ export default function Topbar({ sideBar, setSideBar }) {
 
         <Slide direction='left'>
           <div className="title">
-            <span>OA.</span>
+            <span>OA. 👨🏻‍💻</span>
           </div>
 
           <div className="left">

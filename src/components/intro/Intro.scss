@@ -19,20 +19,23 @@
     h2 {
         font-size: 3rem;
         padding: 20px;
-        font-weight: 300;
+        font-weight: 400;
+        color: rgb(150, 150, 150);
     }
 
     h1 {
         font-size: 5rem;
-        text-shadow: 0 1px 0px $text, 
-        -1px 2px 0px $text, 
-        -2px 4px 0px $text;
-        font-weight: 500;
+        font-weight: 600;
+        font-style: italic;
+        color: $text;
+        
+
     }
 
     h3 {
         font-size: 3rem;
         padding: 20px;
-        font-weight: 300;
+        font-weight: 400;
+        color: rgb(150, 150, 150);
     }
 }
