@@ -30,7 +30,7 @@ export default function AboutMe() {
 
             <div className="wrapper">
               <button>
-                <a class="button_top" target="somethingUnique" href='https://docs.google.com/document/d/1rFFw3F-gRDoxr6qrwCNb2GEkeBDm8ooDcTkR-xg609Q/edit?usp=sharing'>PORTFOLIO</a>
+                <a class="button_top" target="somethingUnique" href='https://docs.google.com/document/d/1Bl36ya1ciJhPuj4a2dlAFr1Cqk4os_4r/edit?usp=sharing&ouid=107045992750468357506&rtpof=true&sd=true'>PORTFOLIO</a>
               </button>
             </div>
           </Fade>
