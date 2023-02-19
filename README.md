@@ -1,4 +1,5 @@
-![OA](https://user-images.githubusercontent.com/94231603/181746904-bf951284-b160-431f-8b69-c2dca8a6a1f8.png)
+
+![Screen Shot 2023-02-20 at 12 26 04 AM](https://user-images.githubusercontent.com/94231603/219976168-df2ce924-2dce-4e07-bba7-6d119bf08b6f.png)
 
 
 ## My Portfolio!
