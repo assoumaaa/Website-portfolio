@@ -1,5 +1,6 @@
 
-![Screen Shot 2023-02-20 at 12 26 04 AM](https://user-images.githubusercontent.com/94231603/219976168-df2ce924-2dce-4e07-bba7-6d119bf08b6f.png)
+
+![Screen Shot 2023-02-20 at 12 27 28 AM](https://user-images.githubusercontent.com/94231603/219976220-7ada689d-8a4d-4559-a037-d11d4e492435.png)
 
 
 ## My Portfolio!
