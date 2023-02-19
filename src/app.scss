@@ -10,7 +10,7 @@ html {
 	//color: $gradient;
 	transition: all 1.2s ease;
 
-	a{
+	a {
 		color: black;
 	}
 
@@ -32,17 +32,26 @@ html {
 		background-color: $gradient;
 	}
 
-	&.darkMode { 
+	&.darkMode {
 		background-color: $background;
-		transition: all 1.2s ease;
-
 		color: white;
 
-		a{
+		a {
 			color: white;
 		}
-		#grid{
+
+		#grid {
+			transition: all 1.2s ease;
 			background-color: $background;
+		}
+
+		#information {
+
+			background-color: $background;
+			
+			h1{
+				color: white;
+			}
 		}
 
 

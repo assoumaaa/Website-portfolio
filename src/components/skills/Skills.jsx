@@ -22,7 +22,7 @@ export const Skills = () => {
         <div className='skills' id='skills'>
             <div className="background"></div>
             <div className="block">
-                <div className="information">
+                <div className="information" id='information'>
                     <Fade duration={1000}>
                         <h1><span>02. My Toolbox</span></h1>
                     </Fade>
