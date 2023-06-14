@@ -21,7 +21,7 @@ export default function Topbar({ sideBar, setSideBar }) {
 
 
   return (
-    <div className={'topbar ' + (sideBar && 'active')}>
+    <div className={'topbar ' + (sideBar && 'active')} id='topbar'>
       <div className='wrapper'>
 
         <Slide direction='left'>
@@ -59,17 +59,17 @@ export default function Topbar({ sideBar, setSideBar }) {
           </div>
         </Slide>
         <div className="right">
-            <div className='light-dark-mode' onClick={handleToggle}>
-              {darkMode ? (
-                <BsSun className='icon' />)
-                : (<BsMoon className='icon' />
-                )}
-            </div>
-            <div className="hamburger" onClick={() => setSideBar(!sideBar)}>
-              <span className="line1"></span>
-              <span className="line2"></span>
-              <span className="line3"></span>
-            </div>
+          <div className='light-dark-mode' onClick={handleToggle}>
+            {darkMode ? (
+              <BsSun className='icon' />)
+              : (<BsMoon className='icon' />
+              )}
+          </div>
+          <div className="hamburger" onClick={() => setSideBar(!sideBar)}>
+            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
+          </div>
         </div>
       </div>
     </div>

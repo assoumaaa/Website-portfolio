@@ -35,21 +35,25 @@ html {
 	&.darkMode {
 		background-color: $background;
 		color: white;
+		transition: all 1.2s ease;
 
 		a {
 			color: white;
 		}
 
 		#grid {
-			transition: all 1.2s ease;
+			background-color: $background;
+		}
+
+		#topbar {
 			background-color: $background;
 		}
 
 		#information {
 
 			background-color: $background;
-			
-			h1{
+
+			h1 {
 				color: white;
 			}
 		}

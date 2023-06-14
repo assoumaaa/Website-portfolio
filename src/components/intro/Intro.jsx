@@ -32,6 +32,7 @@ export default function Intro() {
                     />
                 </h3>
             </Slide>
+            <div className="bottom"></div>
         </div>
     )
 }

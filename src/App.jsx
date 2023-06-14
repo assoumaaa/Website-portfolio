@@ -20,7 +20,7 @@ function App() {
   const [sideBar, setSideBar] = useState(false);
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
-  
+
   return (
     <div className={'App ' + (darkMode && ' darkMode')} >
       <Topbar sideBar={sideBar} setSideBar={setSideBar} />
@@ -28,12 +28,13 @@ function App() {
       <div className="sections">
         <Intro />
         <AboutMe />
-        <Skills/>
+        <Skills />
         <Projects />
         <ContactMe />
       </div>
     </div>
   );
+
 }
 
 export default App;

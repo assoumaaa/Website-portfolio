@@ -9,15 +9,19 @@
     align-items: center;
     justify-content: center;
     font-weight: 400;
-
-
+    background-color: white;
+    padding: 2rem;
+    z-index: 999;
+    transition: all 1.2s ease;
+    
+    
 
     .wrapper {
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 92%;
-
+        
 
         .title {
             font-size: 3rem;
@@ -35,7 +39,6 @@
 
                 a {
                     font-size: 1.25rem;
-                    letter-spacing: 1.5px;
                     text-decoration: none;
                     //color: $secondary_text;
                 }
@@ -86,8 +89,9 @@
     }
 
     &.active {
-        background-color: $text;
+        
         transition: all 1s ease;
+    
 
         .wrapper .title {
             color: white;
