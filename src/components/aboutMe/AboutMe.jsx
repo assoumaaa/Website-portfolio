@@ -9,7 +9,7 @@ export default function AboutMe() {
     <div id='aboutMe' className='aboutMe'>
       <div className="left">
         <div className="information">
-          <Fade duration={1000}>
+          <Fade duration={1000} triggerOnce='true'>
 
             <div className="title">
               <h1><span>01. About me </span></h1>
@@ -17,7 +17,7 @@ export default function AboutMe() {
           </Fade>
 
 
-          <Fade duration={1300}>
+          <Fade duration={1300} triggerOnce='true'>
 
             <div className="details">
               <h2>I'm a senior computer science engineering student from Lebanon!</h2>

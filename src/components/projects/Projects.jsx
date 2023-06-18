@@ -65,7 +65,7 @@ export default function Projects() {
 
     <div className="projects" id="projects">
 
-      <Fade duration={2500}>
+      <Fade duration={2500} triggerOnce='true'>
 
         <h1><span>03. Projects</span></h1>
         <ul>

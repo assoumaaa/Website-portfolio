@@ -23,7 +23,7 @@ export const Skills = () => {
             <div className="background"></div>
             <div className="block">
                 <div className="information" id='information'>
-                    <Fade duration={1000}>
+                    <Fade duration={1000} triggerOnce='true'>
                         <h1><span>02. My Toolbox</span></h1>
                     </Fade>
                 </div>
