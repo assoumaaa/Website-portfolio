@@ -84,6 +84,12 @@ html {
 	}
 }
 
+@media screen and (max-width : 9999px) {
+	html {
+		font-size: 0.85rem;
+	}
+}
+
 @media screen and (max-width : 1500px) {
 	html {
 		font-size: 0.8rem;
